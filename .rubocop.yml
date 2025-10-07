@@ -1,11 +1,11 @@
-require:
+plugins:
   - rubocop-performance
   - rubocop-rake
   - rubocop-rspec
 
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 3.1
+  TargetRubyVersion: 3.2
   DisplayStyleGuide: true
   DisplayCopNames: true
   Exclude:
